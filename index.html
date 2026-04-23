@@ -8,9 +8,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!--Font awesone -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   
     <!--js-->
     <script src="javascript/javascript.js" defer></script>
 </head>
@@ -29,7 +28,7 @@
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="hide">
             <p>Edite a sua tarefa:</p>
             <div class="form-control">
                 <input type="text" id="edit-input">
@@ -54,8 +53,8 @@
                 <h4>Filtrar:</h4>
                 <select id="filter-select">
                     <option value="all">Todos</option>
-                    <option value="all">Feitos</option>
-                    <option value="all">A fazer</option>
+                    <option value="done">Feitos</option>
+                    <option value="todo">A fazer</option>
                 </select>
             </div>
         </div>

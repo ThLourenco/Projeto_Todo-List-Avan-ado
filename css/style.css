@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100vh; /*deixando o html com altura de tela do usuario*/
+}
+
 body{
     background-image: url("../resource/ultra-detailed-nebula-abstract-wallpaper-4.jpg");
     background-position: center;
